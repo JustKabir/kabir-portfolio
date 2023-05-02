@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Source+Code+Pro:wght@400;500;700&family=VT323&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #231f20;
+  scroll-behavior: smooth;
+}
+
+.hero-radialbg {
+  background-image: radial-gradient(#91a117, #231f20 50%);
+}
+
+.project-scrollbar {
+  padding: 1em 0;
+}
+
+.project-scrollbar::-webkit-scrollbar {
+  display: none;
+}

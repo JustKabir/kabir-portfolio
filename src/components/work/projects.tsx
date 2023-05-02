@@ -21,7 +21,7 @@ const Projects = () => {
               </div>
               <div className='flex mt-2'>
                 {project.gitLink && <a target='_blank' href={project.gitLink} className='font-body text-primary-500 text-left text-sm flex items-center'><FaGithub className='text-sm mr-2' /> View git repo</a>}
-                {project.projectLink && <a target='_blank' href={project.projectLink} className='font-body text-primary-500 text-left text-sm flex items-center ml-8'><MdWebStories className='text-sm mr-2' /> View live site</a>}
+                {/* {project.projectLink && <a target='_blank' href={project.projectLink} className='font-body text-primary-500 text-left text-sm flex items-center ml-8'><MdWebStories className='text-sm mr-2' /> View live site</a>} */}
               </div>
             </div>
           ))

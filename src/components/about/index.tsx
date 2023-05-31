@@ -10,7 +10,7 @@ const About = () => (
         <div>
           <div className='w-3/4 xl:w-4/6 ml-8 md:ml-16 lg:ml-12 xl:ml-28 border-4 border-primary-500 bg-secondary-500/20 p-8 xl:p-10 rounded-t-[80px] rounded-bl-[80px]'>
             <p className='text-sm xl:text-lg text-white-500 font-body text-justify'>
-              &ldquo;Highly motivated and curious backend developer with a passion for building scalable and efficient systems. Currently pursuing a Bachelor&apos;s degree in Information Technology, confident in the ability to bring value to the team while gaining real-world experience. Eager to take on new challenges and opportunities that will help grow both personally and professionally.&rdquo;
+              &ldquo;Highly motivated and curious backend developer with a passion for building scalable and efficient systems. Confident in the ability to bring value to the team while gaining real-world experience. Eager to take on new challenges and opportunities that will help grow both personally and professionally.&rdquo;
             </p>
           </div>
           <Image src='/profile.png' width={60} height={60} className='rounded-full hidden md:block border-2 border-primary-500 bg-black-400 relative left-[92%] lg:left-[90%] xl:left-[82%] -translate-x-full w-max' alt="" />
